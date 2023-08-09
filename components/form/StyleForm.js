@@ -4,7 +4,7 @@ const styles = StyleSheet.create({
     Form:{
         width:'100%',
         paddingHorizontal:20,
-        bottom:20,
+        bottom:10,
         flexDirection:'row',
         justifyContent:'space-between',
         alignItems:'center'

@@ -14,12 +14,13 @@ const styles = StyleSheet.create({
       fontSize:30,
       textAlign:'center',
       fontWeight:'bold',
-      color:color.title
+      color:color.title,
+      marginTop:50,
     },
     image:{
       width:'100%',
       height:'100%'
-    }
+    },
   })
 
 export default styles;

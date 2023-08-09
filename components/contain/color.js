@@ -4,5 +4,6 @@ export default{
     primary:'#21a3d0',
     white:'#fff',
     colorList:'#53d6f2',
-    text:'#000000'
+    text:'#000000',
+    evenColor:'#ffca16',
 }

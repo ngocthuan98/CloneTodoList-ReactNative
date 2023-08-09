@@ -2,23 +2,29 @@ import { StyleSheet} from 'react-native'
 import color from '../contain/color';
 const styles = StyleSheet.create({
     item:{
-      marginVertical:5,
-      paddingHorizontal:20,
-      paddingVertical:15,
+      marginBottom:10,
+      paddingHorizontal:25,
+      paddingVertical:12,
       flexDirection:'row',
       backgroundColor:color.white,
       justifyContent:'space-between',
       alignItems:'center'
     },
     square:{
-      backgroundColor:color.colorList,
       paddingHorizontal:10,
       paddingVertical:5,
       borderRadius:8
     },
+    odd:{
+      backgroundColor:color.colorList
+    },
+    even:{
+      backgroundColor:color.evenColor
+    },
     number:{
       fontSize:15,
-      color:color.white
+      color:color.white,
+      fontWeight:'bold'
     },
     content:{
       width:'80%',
